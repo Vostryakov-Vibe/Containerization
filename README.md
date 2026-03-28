@@ -1,5 +1,4 @@
-Vostryakov-Vibe Docker
-
+![Main Screen](demo_docker.jpg)
 Проект по контейнеризации веб-сервиса на Python/Flask, выполненный в рамках настройки среды **Windows + WSL 2 + Docker Desktop**.
 
 ---
