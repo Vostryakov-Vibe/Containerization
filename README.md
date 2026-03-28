@@ -1,5 +1,5 @@
-# Containerization Docker
-Контейнеризация приложения (Containerization)
+Vostryakov-Vibe Docker
+
 Проект по контейнеризации веб-сервиса на Python/Flask, выполненный в рамках настройки среды **Windows + WSL 2 + Docker Desktop**.
 
 ---
@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     # Статус-фраза для проверки доступности
-    return "VPe02: Vostryakov-Vibe is online FOREVER! ✅"
+    return "Vostryakov-Vibe is online FOREVER!"
 
 if __name__ == '__main__':
     # Слушаем все интерфейсы (0.0.0.0) для связи с хостом Windows
