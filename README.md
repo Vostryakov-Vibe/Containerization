@@ -1,6 +1,17 @@
 ![Main Screen](demo_docker.jpg)
 
 Проект по контейнеризации веб-сервиса на Python/Flask, выполненный в рамках настройки среды **Windows + WSL 2 + Docker Desktop**.
+# 🐳 Flask App Containerization
+
+Демонстрационный проект по упаковке Flask-приложения в Docker-контейнер.
+
+### 🚀 Как запустить:
+1. Собрать образ: `docker build -t my-flask-app .`
+2. Запустить контейнер: `docker run -d -p 5000:5000 my-flask-app`
+
+### 🛠 Технологии:
+- **Python / Flask**
+- **Docker** (оптимизированный образ на базе python:3.10-slim)
 
 ---
 
